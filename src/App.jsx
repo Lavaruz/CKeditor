@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Editor from 'ckeditor5-custom-build/build/ckeditor';
 import { CKEditor } from '@ckeditor/ckeditor5-react'
 
+import './App.css'
+
 const editorConfiguration = {
     toolbar: [ 'bold', 'italic' ]
 };
@@ -10,6 +12,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+              <div className="main">
                 <h2>Using CKEditor 5 from online builder in React</h2>
                 <CKEditor
                     editor={ Editor }
@@ -30,6 +33,7 @@ class App extends Component {
                         console.log( 'Focus.', editor );
                     } }
                 />
+              </div>
             </div>
         );
     }
