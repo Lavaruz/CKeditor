@@ -24,7 +24,7 @@ function App(){
                     } }
                 />
             </div>
-            <h2>Coverted Text to HTML Tag</h2>
+            <h2 className='h2-result'>Coverted Text to HTML Tag</h2>
             <div className="main-result">
                 {result}
             </div>
