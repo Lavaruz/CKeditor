@@ -2,11 +2,11 @@
   padding: 2rem 25%;
 }
 
-.result{
+.main-result{
   border: 1px solid lightgray;
   padding: .5rem 1rem;
   margin: 2rem 0;
 }
-.result h3{
+.main-result h2{
   margin: 0;
 }
